@@ -53,7 +53,7 @@ if st.button('Predict'):
 
         # 4. Display
 
-        if result == 1:
+        if result== 1:
             st.header("Spam")
         else:
             st.header("Not Spam")
